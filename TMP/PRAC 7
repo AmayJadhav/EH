@@ -1,0 +1,33 @@
+PRACTICAL NO 7
+AIM: Session Impersonation with Firefox and Tamper Data 
+•Install and configure the Tamper Data add-on in Firefox. 
+•Intercept and modify HTTP requests to impersonate a user's session. 
+•Understand the impact of session impersonation and the importance of session management.
+
+SOLUTION:
+Step 1 : Open Firefox and click on Setting
+
+
+Step 2 : Click on Extension and Themes at the bottom
+
+
+Step 3 : In the search bar type tamper data and click on enter
+
+
+Step 4 : Click on ‘Tamper Data for FF Quantum’ and download it
+
+
+Step 5 : Click on Extension button and select the Tamper Data option
+
+Step 6 : A window will appear and click on Yes to enable the extension
+
+
+Step 7 : Visit the following website : http://testphp.vulnweb.com/login.php
+
+
+Step 8 : Enter the username and password and your choice and click on login
+
+
+Step 9 :  A window will appear where you will see the username and password 
+
+
