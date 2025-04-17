@@ -1,0 +1,57 @@
+PRACTICAL NO 8
+AIM : SQL Injection Attack 
+•Identify a web application vulnerable to SQL injection. 
+•Craft and execute SQL injection queries to exploit the vulnerability. 
+•Extract sensitive information or manipulate the database through the SQL injection attack.  
+
+SOLUTION:
+Step 1:  Download DVWA from the DVWA GitHub Repository.
+
+Step 2 : Extract the DVWA folder to your web server's root directory, Place the folder inside C:\xampp\htdocs\
+
+Step 3 : Download and install XAMPP Server from the website : https://www.apachefriends.org/download.html
+
+Step 4 :  Open the XAMPP server and start Apache and Mysql by clicking on start
+
+
+Step 5 : Open your browser and navigate to the http://localhost/phpmyadmin website to open PhpMyAdmin
+
+Step 6 : Click on New to create a database ,give the name of the database as ‘dvwa’ and click on create. 
+
+
+Step 7 : Edit the config/config.inc.php file in the DVWA folder to configure your database connection. 
+Make the following changes in the file
+$_DVWA = array();
+$_DVWA[ 'db_server' ]   = '127.0.0.1';
+$_DVWA[ 'db_database' ] = 'dvwa';
+$_DVWA[ 'db_user' ]     = 'root';
+$_DVWA[ 'db_password' ] = 'root123';
+$_DVWA[ 'db_port']      = '3306';
+
+Step 8 : Navigate to http://localhost/dvwa/setup.php in your web browser to complete the setup. 
+
+Step 9 :  log in to the application using the default credentials:
+Username: admin , Password: password
+
+
+
+Step 10 : Click on Create/ Reset Database
+
+Step 11 : You will see the following result
+
+
+Step 12 : Now click on DVWA Security option on the left and set the security level as low and click on submit. 
+
+
+Step 13 : Click on the SQL Injection option on the left 
+
+
+Step 14: In the User ID section enter 1 
+
+
+Step 15: In the User ID section enter 2 
+
+Step 16: In the User ID section enter 3
+
+
+Step 17: In the User ID section enter 4
