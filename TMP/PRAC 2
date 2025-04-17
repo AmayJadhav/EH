@@ -1,0 +1,58 @@
+PRACTICAL NO 2
+AIM:  Password Encryption and Cracking with CrypTool and Cain and Abel
+Password Encryption and Decryption: 
+•Use CrypTool to encrypt passwords using the RC4 algorithm. 
+•Decrypt the encrypted passwords and verify the original values. 
+Password Cracking and Wireless Network Password Decoding:
+•Use Cain and Abel to perform a dictionary attack on Windows account passwords. 
+•Decode wireless network passwords using Cain and Abel's capabilities.
+
+SOLUTION:
+1)Password Encryption and Decryption: 
+•Use CrypTool to encrypt passwords using the RC4 algorithm. 
+•Decrypt the encrypted passwords and verify the original values. 
+
+Step 1 : Download Cryptool1 from the website : https://www.cryptool.org/en/ct1/downloads/
+Step 2 : Create a new text file 
+
+
+Step 3 :  Write anything you want to encrypt
+
+
+Step 4 : Click on Encrypt/Decrypt < Symmetric (Modern) < RC4
+
+
+Step 5 : Click on Encrypt
+
+
+Step 6 : A window will appear where you will get the encrypted text 
+
+
+Step 7 : Now for decryption Click on Decrypt
+
+Step 8 : A window will appear where you will get the original text of the encrypted text
+
+
+2) Password Cracking and Wireless Network Password Decoding:
+•Use Cain and Abel to perform a dictionary attack on Windows account passwords. 
+•Decode wireless network passwords using Cain and Abel's capabilities.
+
+Step 1 : Download Install and then open the Cain & Abel Tool
+
+Step 2 : first go to sniffer and then click on configure , select the appropraite wireless adapter. Click on apply and then click on the ok button
+
+
+Step 3 : activate sniffer
+
+
+Step 4 : Click on + icon . check all tests checkbox and then click on OK
+
+
+
+Step 5 :  click on APR  then click on the blank screen and then on the + icon. select any ip address ( ipv4 address) form the left side and select all ip address and mac address from right side and then click on ok
+
+Step 6 : Apply sniffer by click on the start /stop sniffer on the top. It gives the status of all the devices connected to wifi
+
+
+Step 7 : Then go the passwords tab it will display the passwords presents
+
