@@ -1,0 +1,27 @@
+PRACTIACL NO 1
+AIM: Google and Whois Reconnaissance
+Use Google search technique to gather information about a specific target or organization
+Utilize advanced search operators to refine search results and access hidden information
+Perform whois lookups to retrieve domain registration information and gather details about the target’s infrastructure
+
+SOLUTION:
+Step 1 : Seach prestashop on google and take a screenshot of the result displayed
+
+
+Step 2 : Take a screenshot of the side panel containing information prestashop information
+
+Step 3 : Go to the browser and search for https://whois.is/
+
+ 	
+Step 4 : Search for https://prestashop.com/
+
+
+Step 5 : Scroll down and study the information given below
+
+
+
+Step 6 : Click on DNS Record
+
+
+
+Step 7 : Click on Diagnostics
